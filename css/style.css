@@ -1,0 +1,109 @@
+/* 导航栏样式 */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/* 头部样式 */
+header {
+    background-color: #ddd;
+    text-align: center;
+    padding: 50px;
+}
+
+/* 轮播图样式 */
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.carousel img {
+    width: 30%;
+}
+
+/* 介绍样式 */
+section {
+    margin: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+/* 成员列表样式 */
+section ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section li {
+    text-align: center;
+    width: 30%;
+}
+
+section li img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+section li p {
+    margin: 10px 0;
+}
+
+/* 论文发表样式 */
+section ul li a {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* 联系我们样式 */
+section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* 底部样式 */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
